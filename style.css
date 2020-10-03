@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+	background-color: #9dc5c3;
+background-image: linear-gradient(315deg, #9dc5c3 0%, #5e5c5c 74%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+@font-face{
+            font-family: mine;
+            src: url(font/Bigpartyo2green-d95XV.ttf);
+        }
+
+h1{
+	font-family: mine;
+	font-size: 2.9rem;
+	color: #e5fdfe ;
+	text-orientation: mixed;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 3px black;
+}
+
+canvas {
+	border: 2px solid #537895;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+
+.toolbox {
+	width: 1000px;
+	height: 70px;
+	background-color: #537895;
+	background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+	padding: 0.5rem;
+	display: flex;
+
+}
+
+.toolbox > * {
+	background-color: #d5fefd;
+background-image: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%);
+	border: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.25rem;
+	font-size: 2rem;
+	width: 50px;
+	height: 50px;
+	margin: 0.25rem;
+	border-radius: 40%;
+	font-weight: bolder;
+	font-family: serif;
+	cursor: pointer;
+}
+
+.toolbox > *:last-child{
+	margin-left: auto;
+}
+
